@@ -11,6 +11,8 @@ echo ""
 echo " Installing Packages - Debian Only "
 echo ""
 sleep 1
+sudo apt-get -y install libmad0 &&
+sudo apt-get -y install libmad0-dev &&
 sudo dpkg -i install *.deb &&
 echo " Packages Installed..."
 sleep 1
